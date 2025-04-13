@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8888:8888"
+      - "6006:6006"  # для TensorBoard
+    volumes:
+      - ./:/app
+    environment:
+      - PYTHONPATH=/app

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+.ipynb_checkpoints
+.DS_Store
+.git
+.idea
+data/
+models/
